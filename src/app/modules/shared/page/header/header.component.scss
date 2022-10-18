@@ -1,0 +1,229 @@
+.navbar-collapse09 {
+  justify-content: flex-end !important;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.navbar-nav>li {
+  flex: 16%;
+}
+
+.navbar-nav>li {
+  flex: 16%;
+}
+
+#dropdown03 {
+  text-align: left;
+}
+
+#navbarsExample09>ul>li.nav-item.dropdown.\@\@about {
+  flex: 12%;
+}
+
+.openHeader {
+  display: none;
+}
+
+.nav-link {
+  color: var(--main-500);
+}
+
+.nav-link:hover {
+  color: var(--main-500);
+  // border-bottom: 2px solid var(--main-500);
+  text-decoration: underline;
+}
+
+a {
+  font-family: "Vinci-Sans-Regular";
+  font-size: 18px;
+}
+
+.dropdown-menu {
+  background-color: var(--main-500);
+  color: white;
+}
+
+
+@media (max-width: 992px) {
+  .navbar {
+    height: 10vh;
+  }
+
+  .top-brand {
+    position: relative !important;
+    background: white !important;
+  }
+
+  .header-top-info {
+    display: none;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    top: 10px;
+    opacity: 1.0;
+  }
+
+  .header-top-socials {
+    position: fixed;
+    flex-flow: column;
+    left: 22px;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: var(--main-500);
+    width: 32px;
+    opacity: 0.70;
+  }
+
+  .header-top-socials:hover {
+    opacity: 1;
+  }
+
+  .collapse:not(.show) {
+    background-color: rgb(54, 43, 217);
+    transition: all 0.5s;
+    display: block;
+    max-width: 0;
+    right: 0;
+    top: 10vh
+  }
+
+  .collapse:not(.show)>ul,
+  .collapse:not(.show)>div {
+    transition: all 0.8s;
+    overflow: hidden;
+  }
+
+  .openHeader~.collapse:not(.show) {
+    position: absolute;
+    background-color: rgba(92, 92, 221, 0.656);
+    margin-top: 24px;
+    width: 100% !important;
+    transition: all 0.8s;
+    max-height: 0px;
+    z-index: 9999;
+  }
+
+  .openHeader~.container>.row {
+    padding-top: 8px;
+  }
+
+  input[type="checkbox"]:checked~.collapse:not(.show) {
+    transform: translateX(0);
+    max-width: 300px;
+    right: 0;
+    top: 6vh;
+  }
+
+  input[type="checkbox"]:checked~.collapse:not(.show)>ul,
+  input[type="checkbox"]:checked~.collapse:not(.show)>div {
+    background-color: white;
+    border: 1px solid #7fa1ff;
+    padding: 20px 36px;
+
+    li>a {
+      text-align: center !important;
+    }
+  }
+
+  .openHeader {
+    width: 100%;
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  .arrowsHeader {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    top: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    border: 1px solid var(--main-500);
+  }
+
+  .line {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 5px;
+    left: 8px;
+    width: 32px;
+    background-color: var(--main-500);
+  }
+
+  .horiz-1 {
+    top: 12px;
+  }
+
+  .horiz-2 {
+    top: 22px;
+  }
+
+  .horiz-3 {
+    top: 32px;
+  }
+
+  input[type=checkbox]:checked~.arrowsHeader>.line.horiz-1 {
+    top: 17px;
+    transform: rotate(135deg) !important;
+  }
+
+  input[type=checkbox]:checked~.arrowsHeader>.line.horiz-2 {
+    top: 17px;
+    transform: rotate(-135deg) !important;
+  }
+
+  input[type=checkbox]:checked~.arrowsHeader>.line.horiz-3 {
+    opacity: 0;
+  }
+
+  .dropdown-menu,
+  .dropdown-item {
+    display: block;
+  }
+
+  .nav-item {
+    line-height: 1.5em;
+  }
+
+}
+.btn-solid-border{
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.459){
+  filter: blur(16px);}
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  color: rgb(158, 158, 158);
+  background-color: transparent !important;
+}
+
+.face:hover {
+  padding-top: 1.5px;
+}
+
+.linkedin:hover {
+  padding-top: 1.5px;
+}
+
+.insta:hover {
+  padding-top: 1.5px;
+}
+
+// iconos redes Sociales

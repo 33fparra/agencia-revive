@@ -1,0 +1,27 @@
+.height-20vh {
+  height: 40vh;
+
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 80vh;
+  left: 0;
+}
+
+@media (max-width: 992px) {
+  video {
+    height: 88vh;
+  }
+}
+
+.block {
+  text-shadow: 2px 2px rgba(10, 138, 206, 0.96);
+  top: 20%;
+  left: 8%;
+}
+
+.home {
+  padding: 0 !important;
+}
